@@ -1,0 +1,53 @@
+﻿umbrales:
+  licencias:
+    verde: 5
+    amarillo: 10
+  permisos:
+    verde: 3
+    amarillo: 6
+  vacaciones:
+    verde: 10
+    amarillo: 20
+  descansos:
+    verde: 2
+    amarillo: 4
+  turnos_criticos:
+    verde: 20
+    amarillo: 40
+reglas_dias:
+  vacaciones: naturales
+  licencia_medica: naturales
+  permiso: proporcionales
+  descanso_compensatorio: habiles
+  turno: horas
+sede_equivalencias:
+  "quilpue": "Quilpué"
+  "qvp": "Quilpué"
+  "v. alemana": "Villa Alemana"
+  "villa alemana": "Villa Alemana"
+  "vina del mar": "Viña del Mar"
+  "viña": "Viña del Mar"
+subtipo_equivalencias:
+  "reposo": "Reposo"
+  "permiso sin goce": "Permiso sin goce"
+  "turno noche": "Turno Noche"
+display:
+  modo: "auto"
+  alto_contraste: false
+  tamano_fuente: "medio"
+column_mapping:
+  rut: "rut"
+  nombre: "nombre"
+  cargo: "cargo"
+  sede: "sede"
+  tipo_registro: "tipo_registro"
+  subtipo: "subtipo"
+  fecha_inicio: "fecha_inicio"
+  fecha_termino: "fecha_termino"
+  dias: "dias"
+  horas: "horas"
+  estado: "estado"
+  observacion: "observacion"
+  turno_codigo: "turno_codigo"
+  turno_inicio: "turno_inicio"
+  turno_fin: "turno_fin"

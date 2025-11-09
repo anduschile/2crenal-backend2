@@ -1,0 +1,16 @@
+streamlit
+pandas
+plotly
+numpy
+python-dateutil
+pyyaml
+openpyxl
+XlsxWriter
+jinja2
+weasyprint
+reportlab
+Pillow
+streamlit-aggrid
+pyarrow
+
+kaleido

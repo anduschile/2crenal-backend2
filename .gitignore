@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+# Ignora todos menos el archivo base de funcionarios
+data/*
+!data/base_maestra.xlsx
+.streamlit/credentials.toml
