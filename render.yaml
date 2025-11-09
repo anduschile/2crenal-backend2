@@ -1,9 +1,7 @@
 services:
   - type: web
-    name: crenal-dashboard
+    name: crenal-dashboard    # <— sin el doble “b”
     env: python
-    region: oregon
-    plan: free
     buildCommand: |
       pip install --upgrade pip
       pip install -r requirements.txt
